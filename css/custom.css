@@ -1,0 +1,81 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	height: 100%;
+	width: 100%;
+}
+header {
+	height: 100%;
+	width: 100%;
+}
+header>nav {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	float: right;
+	display: inline-block;
+	height: 100%;
+	width: auto;
+}
+header>nav>ul>li {
+	display: inline-block;
+	padding: 0 10px;
+}
+header>nav>ul>li>a {
+	display: inline-block;
+	color: #e46166;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	border-bottom: 2px solid #fff;
+}
+header>nav>ul>li>a:hover {
+	text-decoration: none;
+	color: #e46166;
+	border-bottom: 2px solid #e46166;
+}
+.doctor-appointment-container {
+	background-color: #e46166;
+	padding: 20px 0;
+	padding-bottom: 0;
+	color: #fff;
+	font-family: 'Patrick Hand', cursive;
+	width: 100%;
+}
+.doctor-appointment-container > .container > h3 {
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+.doctor-appointment-container > .container > .appointment-steps {
+	padding: 15px;
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+}
+
+.doctor-appointment-container > .container > .appointment-steps > .app-step-desc {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.doctor-appointment-container > .container > .appointment-steps > h4 {
+	font-size: 23px;
+}
+.doctor-appointment-container > .get-app-button {
+	text-align: center;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	background-color: #f3c6cc;
+	color: #e46166;
+	padding: 15px 0;
+	font-size: 30px;
+	cursor: pointer;
+}
+.doctor-appointment-container > #app_step1 {
+	display: none;
+}
+
+
+
