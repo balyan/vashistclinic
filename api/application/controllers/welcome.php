@@ -29,8 +29,6 @@ class Welcome extends CI_Controller {
 	{
 		header('Content-Type: application/json');
 		echo "abc";
-		//$this->load->helper('url');
-		//$this->load->view('welcome_message');
 	}
 }
 
